@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.eldermode {
+  font-size: 1.125rem;
+}
+
+.eldermode .text-base {
+  font-size: 1.125rem !important;
+}
+
+.eldermode .text-lg {
+  font-size: 1.375rem !important;
+}
+
+.eldermode .text-xl {
+  font-size: 1.5rem !important;
+}
+
+.eldermode .text-2xl {
+  font-size: 2rem !important;
+}
+
+.eldermode .text-3xl {
+  font-size: 2.75rem !important;
+}
+
+.eldermode .text-sm {
+  font-size: 1rem !important;
+}
+
+.eldermode .px-4 {
+  padding-left: 1.25rem !important;
+  padding-right: 1.25rem !important;
+}
+
+.eldermode .py-3 {
+  padding-top: 0.875rem !important;
+  padding-bottom: 0.875rem !important;
+}
+
+.eldermode .px-6 {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+.eldermode .py-4 {
+  padding-top: 1.125rem !important;
+  padding-bottom: 1.125rem !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
